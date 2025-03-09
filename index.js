@@ -6,7 +6,7 @@ const webhookClient = new WebhookClient({ url: webhookURL });
 
 async function sendCatImage() {
     try {
-        const response = await axios.get('https://api.thecatapi.com/v1/images/search'
+        const response = await axios.get('https://api.thecatapi.com/v1/images/search');
         if (response.data.length > 0) {
             const catImage = response.data[0].url;
             await webhookClient.send({
