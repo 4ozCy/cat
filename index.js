@@ -1,7 +1,7 @@
 const axios = require('axios');
 const { WebhookClient } = require('discord.js');
 
-const webhookURL = 'https://discord.com/api/webhooks/13483109853159792>
+const webhookURL = 'https://discord.com/api/webhooks/13483109853159792'
 const webhookClient = new WebhookClient({ url: webhookURL });
 
 async function sendCatImage() {
