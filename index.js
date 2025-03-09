@@ -28,7 +28,7 @@ async function sendCatImage() {
     }
 }
 
-setInterval(sendCatImage, 5000);
+setInterval(sendCatImage, 9000);
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
